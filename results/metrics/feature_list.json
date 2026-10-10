@@ -1,0 +1,36 @@
+{
+  "primary": [
+    "hour",
+    "dayofweek",
+    "is_weekend",
+    "month",
+    "working_day",
+    "activity_high",
+    "power_lag1",
+    "power_lag2",
+    "power_lag24",
+    "power_roll_mean_24",
+    "power_roll_std_24",
+    "occ_lag1",
+    "occ_lag2",
+    "occ_lag24"
+  ],
+  "energy_only_ablation": [
+    "hour",
+    "dayofweek",
+    "is_weekend",
+    "month",
+    "working_day",
+    "activity_high",
+    "power_lag1",
+    "power_lag2",
+    "power_lag24",
+    "power_roll_mean_24",
+    "power_roll_std_24"
+  ],
+  "target": "power_w",
+  "unit": "W",
+  "max_fill_hours": 1,
+  "roll_window": 24,
+  "roll_min_periods": 18
+}

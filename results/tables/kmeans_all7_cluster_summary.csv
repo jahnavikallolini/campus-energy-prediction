@@ -1,0 +1,4 @@
+cluster,days,mean_rel,load_factor,std_rel,day_night_ratio_log,evening_share,weekend_share,high_activity_share
+0,4691,0.994,0.663,0.31,0.175,0.276,0.289,0.423
+1,555,0.011,0.013,0.03,-2.273,0.0,0.396,0.263
+2,413,2.396,0.327,2.981,2.938,0.025,0.131,0.654

@@ -1,0 +1,10 @@
+column,status_rows,status_zero_total,status_eq1_but_power_NA,status_eq0_but_power_present,grid_minutes_absent_from_all_file,share_present_pct
+Academic,2311200,41673,0,0,632,98.2
+Boys_main,2311200,639656,0,0,632,72.32
+Boys_backup,2311200,623157,0,0,632,73.04
+Facilities,2311200,262297,0,0,632,88.65
+Girls_main,2311200,658147,0,0,632,71.52
+Girls_backup,2311200,10455,0,0,632,99.55
+Lecture,2311200,41891,0,0,632,98.19
+Library,2311200,597563,0,0,632,74.14
+Mess,2311200,298111,0,0,632,87.1

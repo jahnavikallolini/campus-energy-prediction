@@ -1,0 +1,87 @@
+{
+  "E_all": {
+    "DT": {
+      "encoding": "raw",
+      "params": {
+        "max_depth": 8,
+        "min_samples_leaf": 20
+      },
+      "macro_val_nRMSE_std": 0.3603773146229967,
+      "macro_val_R2": 0.8702497667357166,
+      "n_candidates": 15
+    },
+    "KNN": {
+      "encoding": "onehot",
+      "params": {
+        "k": 20,
+        "weights": "distance"
+      },
+      "macro_val_nRMSE_std": 0.3761201039431456,
+      "macro_val_R2": 0.8582863937309365,
+      "n_candidates": 24
+    },
+    "LR": {
+      "encoding": "onehot",
+      "params": {},
+      "macro_val_nRMSE_std": 0.35795540313549107,
+      "macro_val_R2": 0.8770974981351779,
+      "n_candidates": 3
+    },
+    "SVR": {
+      "encoding": "onehot",
+      "params": {
+        "C": 30,
+        "gamma": 0.005,
+        "epsilon": 0.1
+      },
+      "macro_val_nRMSE_std": 0.34806200861412834,
+      "macro_val_R2": 0.8823478396745618,
+      "n_candidates": 36
+    }
+  },
+  "P": {
+    "DT": {
+      "encoding": "raw",
+      "params": {
+        "max_depth": 8,
+        "min_samples_leaf": 20
+      },
+      "macro_val_nRMSE_std": 0.3570486770399336,
+      "macro_val_R2": 0.8663326384292914,
+      "n_candidates": 15
+    },
+    "KNN": {
+      "encoding": "onehot",
+      "params": {
+        "k": 20,
+        "weights": "distance"
+      },
+      "macro_val_nRMSE_std": 0.3979473897374662,
+      "macro_val_R2": 0.8349521677144583,
+      "n_candidates": 24
+    },
+    "LR": {
+      "encoding": "onehot",
+      "params": {},
+      "macro_val_nRMSE_std": 0.3481104845788338,
+      "macro_val_R2": 0.877480035633479,
+      "n_candidates": 3
+    },
+    "SVR": {
+      "encoding": "onehot",
+      "params": {
+        "C": 30,
+        "gamma": 0.005,
+        "epsilon": 0.1
+      },
+      "macro_val_nRMSE_std": 0.34675556226280696,
+      "macro_val_R2": 0.8764159686126737,
+      "n_candidates": 36
+    }
+  },
+  "_meta": {
+    "criterion": "lowest macro-average validation nRMSE_std (RMSE / training-target std)",
+    "svr_tuning_subsample_rows": 3000,
+    "test_rows_used": false
+  }
+}

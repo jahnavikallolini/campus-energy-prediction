@@ -1,0 +1,93 @@
+{
+  "full_grid_minutes": 2311200,
+  "all_buildings": {
+    "rows": 2310568,
+    "cols": [
+      "Academic",
+      "Boys_main",
+      "Boys_backup",
+      "Facilities",
+      "Girls_main",
+      "Girls_backup",
+      "Lecture",
+      "Library",
+      "Mess"
+    ],
+    "first": "2013-08-10 00:00:00",
+    "last": "2017-12-31 23:59:00",
+    "dup_ts": 0,
+    "na": {
+      "Academic": 41041,
+      "Boys_main": 639024,
+      "Boys_backup": 622525,
+      "Facilities": 261665,
+      "Girls_main": 657515,
+      "Girls_backup": 9823,
+      "Lecture": 41259,
+      "Library": 596931,
+      "Mess": 297479
+    }
+  },
+  "backup_feeders": {
+    "Boys_backup": {
+      "rows_present": 1688043,
+      "mean_W": 13927.37408888325,
+      "corr_with_main": 0.5905963678522592,
+      "mean_ratio_backup_to_main": 0.7956102799281541
+    },
+    "Girls_backup": {
+      "rows_present": 2300745,
+      "mean_W": 6881.25490099935,
+      "corr_with_main": 0.6354138138219381,
+      "mean_ratio_backup_to_main": 0.9374535910526524
+    }
+  },
+  "status_rows": 2311200,
+  "all7_present_simultaneously_pct": 41.99,
+  "calendar": {
+    "rows": 1614,
+    "first": "2013-08-01",
+    "last": "2017-12-31",
+    "missing_dates": 0,
+    "working_day_counts": {
+      "1": 1061,
+      "0": 553
+    },
+    "activity_counts": {
+      "L": 913,
+      "H": 701
+    },
+    "weekend_marked_working": 3,
+    "weekday_marked_nonworking": 94,
+    "crosstab_activity_workingday": {
+      "0": {
+        "H": 0,
+        "L": 553
+      },
+      "1": {
+        "H": 701,
+        "L": 360
+      }
+    }
+  },
+  "weather": {
+    "rows": 5780,
+    "columns": [
+      "Airport_temperature",
+      "Airport_Humidity",
+      "IIITD_temperature",
+      "IIITD_Humidity"
+    ],
+    "first": "2018-03-01 00:00:00",
+    "last": "2018-06-29 03:00:00",
+    "dup_index": 0,
+    "na": {
+      "Airport_temperature": 1,
+      "Airport_Humidity": 1,
+      "IIITD_temperature": 0,
+      "IIITD_Humidity": 0
+    },
+    "overlap_with_energy_days": 0,
+    "documented_semantics": "IIITD_* = on-campus logger, Airport_* = IGIA station; temperature/humidity only (see I-BLEND Data Descriptor)"
+  }
+}

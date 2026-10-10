@@ -1,0 +1,21 @@
+model,variant,period,hours,flagged,high,low,pct_flagged
+Linear Regression,E_matched,test_full,37264,1897,1207,690,5.0907041648776294
+Linear Regression,E_matched,test_post_break,16885,1229,866,363,7.278649689073142
+Linear Regression,E_matched,test_primary,20231,657,332,325,3.247491473481291
+Linear Regression,E_matched,test_transition,148,11,9,2,7.4324324324324325
+Linear Regression,E_matched,validation,28428,661,337,324,2.3251723652736738
+Linear Regression,P,test_full,37264,1919,1191,728,5.149742378703306
+Linear Regression,P,test_post_break,16885,1260,860,400,7.4622445957950845
+Linear Regression,P,test_primary,20231,647,321,326,3.1980623795165837
+Linear Regression,P,test_transition,148,12,10,2,8.108108108108109
+Linear Regression,P,validation,28428,667,349,318,2.3462783171521036
+Support Vector Regression,E_matched,test_full,37264,2834,1611,1223,7.6051953628166595
+Support Vector Regression,E_matched,test_post_break,16885,1965,1173,792,11.637548119632811
+Support Vector Regression,E_matched,test_primary,20231,848,427,421,4.191587168207207
+Support Vector Regression,E_matched,test_transition,148,21,11,10,14.18918918918919
+Support Vector Regression,E_matched,validation,28428,975,591,384,3.429717180244829
+Support Vector Regression,P,test_full,37264,2848,1597,1251,7.642765135251181
+Support Vector Regression,P,test_post_break,16885,2083,1218,865,12.336393248445365
+Support Vector Regression,P,test_primary,20231,747,367,380,3.6923533191636597
+Support Vector Regression,P,test_transition,148,18,12,6,12.162162162162161
+Support Vector Regression,P,validation,28428,862,555,307,3.0322217532010693

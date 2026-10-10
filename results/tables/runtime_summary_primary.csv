@@ -1,0 +1,5 @@
+model,fit_seconds_total,predict_seconds_total,clipped_val,clipped_test
+Linear Regression,0.22,0.08,905,1405
+KNN Regression,0.1,4.72,0,0
+Decision Tree Regression,0.52,0.04,0,0
+Support Vector Regression,56.22,27.79,930,1205

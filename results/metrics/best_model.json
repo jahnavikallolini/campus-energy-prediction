@@ -1,0 +1,34 @@
+{
+  "best_model": "Support Vector Regression",
+  "criterion": "lowest macro-average validation nRMSE_std on the primary (energy + lagged occupancy) variant",
+  "macro_val_nRMSE_std": 0.3209428699938961,
+  "macro_val_R2": 0.8918940066778808,
+  "per_building_validation_wins": {
+    "Support Vector Regression": 5,
+    "Linear Regression": 1,
+    "Decision Tree Regression": 1
+  },
+  "decided_before_test_metrics": true,
+  "validation_ranking": [
+    {
+      "model": "Support Vector Regression",
+      "macro_nRMSE_std": 0.3209428699938961,
+      "macro_R2": 0.8918940066778808
+    },
+    {
+      "model": "Linear Regression",
+      "macro_nRMSE_std": 0.3481104845788339,
+      "macro_R2": 0.877480035633479
+    },
+    {
+      "model": "Decision Tree Regression",
+      "macro_nRMSE_std": 0.3570486770399336,
+      "macro_R2": 0.8663326384292914
+    },
+    {
+      "model": "KNN Regression",
+      "macro_nRMSE_std": 0.39794738973746624,
+      "macro_R2": 0.8349521677144581
+    }
+  ]
+}

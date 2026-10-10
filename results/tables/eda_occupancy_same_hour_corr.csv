@@ -1,0 +1,8 @@
+building,n_hours,spearman_same_hour,pearson_same_hour
+Academic,23412,0.701,0.762
+Boys_main,14891,0.523,0.508
+Facilities,18872,0.335,0.263
+Girls_main,13322,0.315,0.341
+Lecture,19179,0.557,0.622
+Library,14497,0.649,0.567
+Mess,20122,0.461,0.42

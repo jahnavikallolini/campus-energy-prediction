@@ -1,0 +1,118 @@
+{
+  "window": "2013-08-10 00:00:00 to 2016-12-31 23:59:00 (development window, < 2017-01-01)",
+  "minutes_with_power": 1753074,
+  "zero_minutes": 1446934,
+  "zero_pct": 82.54,
+  "zero_pct_by_year": {
+    "2013": 78.2,
+    "2014": 81.7,
+    "2015": 84.8,
+    "2016": 82.8
+  },
+  "zero_pct_by_month": {
+    "1": 84.1,
+    "2": 95.3,
+    "3": 99.3,
+    "4": 79.3,
+    "5": 86.3,
+    "6": 87.3,
+    "7": 71.4,
+    "8": 62.2,
+    "9": 63.6,
+    "10": 76.0,
+    "11": 92.4,
+    "12": 99.8
+  },
+  "zero_pct_by_dow": {
+    "0": 79.1,
+    "1": 78.7,
+    "2": 79.5,
+    "3": 79.4,
+    "4": 78.4,
+    "5": 86.7,
+    "6": 95.9
+  },
+  "zero_pct_by_working_day": {
+    "0": 92.0,
+    "1": 77.5
+  },
+  "zero_pct_by_activity": {
+    "H": 73.3,
+    "L": 89.5
+  },
+  "zero_run_minutes": {
+    "n": 3283,
+    "median": 3.0,
+    "mean": 440.7,
+    "p90": 984.8000000000002,
+    "p99": 6973.619999999999,
+    "max": 63177
+  },
+  "nonzero_run_minutes": {
+    "n": 3222,
+    "median": 3.0,
+    "mean": 95.0,
+    "p90": 451.9000000000001,
+    "p99": 717.79,
+    "max": 2049
+  },
+  "zero_runs_longer_than_1_day": 186,
+  "zero_minutes_in_runs_over_1_day_pct": 64.8,
+  "nonzero_power_W": {
+    "count": 306140.0,
+    "mean": 3559.0,
+    "std": 1714.0,
+    "min": 148.6,
+    "5%": 652.9,
+    "25%": 1999.8,
+    "50%": 4217.3,
+    "75%": 4474.5,
+    "95%": 6419.3,
+    "max": 19782.0
+  },
+  "pct_missing_by_channel": {
+    "zero_minutes": {
+      "current": 11.5,
+      "voltage": 100.0,
+      "frequency": 0.0,
+      "power_factor": 0.0
+    },
+    "nonzero_minutes": {
+      "current": 14.7,
+      "voltage": 100.0,
+      "frequency": 0.0,
+      "power_factor": 0.0
+    }
+  },
+  "current_equals_0_in_zero_minutes_pct": 96.1,
+  "voltage_median_V_when_present_zero_vs_nonzero": [
+    NaN,
+    NaN
+  ],
+  "hourly_class_pct": {
+    "all-zero hour": 79.3,
+    "no-zero hour": 14.6,
+    "mixed hour": 6.1
+  },
+  "occupancy_same_hour_by_class": {
+    "all-zero hour": {
+      "count": 14430.0,
+      "25%": 1.8,
+      "50%": 4.0,
+      "75%": 12.2
+    },
+    "mixed hour": {
+      "count": 1414.0,
+      "25%": 8.8,
+      "50%": 29.2,
+      "75%": 68.5
+    },
+    "no-zero hour": {
+      "count": 3335.0,
+      "25%": 46.1,
+      "50%": 113.0,
+      "75%": 192.5
+    }
+  },
+  "hourly_target_zero_pct": 79.28
+}

@@ -1,0 +1,20 @@
+{
+  "pca": {
+    "n_rows": 90640,
+    "n_features": 13,
+    "pc1": 0.37520437569114723,
+    "pc2": 0.16864785193894852,
+    "pc3": 0.14496390692451386,
+    "components_for_90pct": 7
+  },
+  "kmeans_all7": {
+    "n_building_days": 5659,
+    "selected_K": 3,
+    "silhouette_at_K": 0.714874294128849
+  },
+  "kmeans_without_lecture": {
+    "n_building_days": 4650,
+    "selected_K": 2,
+    "silhouette_at_K": 0.3487573849528918
+  }
+}

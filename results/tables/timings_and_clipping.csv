@@ -1,0 +1,85 @@
+variant,model,building,train_rows,fit_seconds,predict_seconds,clipped_val,clipped_test,encoding,params
+P,Linear Regression,Academic,18566,0.06,0.016,0,0,onehot,{}
+P,Linear Regression,Boys_main,10070,0.03,0.012,0,0,onehot,{}
+P,Linear Regression,Facilities,14380,0.03,0.01,0,0,onehot,{}
+P,Linear Regression,Girls_main,8479,0.02,0.011,0,0,onehot,{}
+P,Linear Regression,Lecture,14128,0.03,0.01,902,1400,onehot,{}
+P,Linear Regression,Library,9886,0.02,0.01,3,5,onehot,{}
+P,Linear Regression,Mess,15131,0.03,0.011,0,0,onehot,{}
+P,KNN Regression,Academic,18566,0.02,0.998,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+P,KNN Regression,Boys_main,10070,0.01,0.528,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+P,KNN Regression,Facilities,14380,0.02,0.762,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+P,KNN Regression,Girls_main,8479,0.01,0.48,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+P,KNN Regression,Lecture,14128,0.01,0.529,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+P,KNN Regression,Library,9886,0.01,0.491,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+P,KNN Regression,Mess,15131,0.02,0.929,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+P,Decision Tree Regression,Academic,18566,0.12,0.006,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+P,Decision Tree Regression,Boys_main,10070,0.06,0.005,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+P,Decision Tree Regression,Facilities,14380,0.07,0.005,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+P,Decision Tree Regression,Girls_main,8479,0.05,0.005,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+P,Decision Tree Regression,Lecture,14128,0.05,0.007,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+P,Decision Tree Regression,Library,9886,0.07,0.007,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+P,Decision Tree Regression,Mess,15131,0.1,0.005,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+P,Support Vector Regression,Academic,18566,14.17,4.823,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+P,Support Vector Regression,Boys_main,10070,5.78,3.108,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+P,Support Vector Regression,Facilities,14380,9.09,4.023,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+P,Support Vector Regression,Girls_main,8479,3.97,3.198,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+P,Support Vector Regression,Lecture,14128,4.04,1.544,930,1205,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+P,Support Vector Regression,Library,9886,5.53,3.18,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+P,Support Vector Regression,Mess,15131,13.64,7.912,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+E_matched,Linear Regression,Academic,18566,0.04,0.01,0,0,onehot,{}
+E_matched,Linear Regression,Boys_main,10070,0.02,0.009,0,0,onehot,{}
+E_matched,Linear Regression,Facilities,14380,0.03,0.009,0,0,onehot,{}
+E_matched,Linear Regression,Girls_main,8479,0.02,0.009,0,0,onehot,{}
+E_matched,Linear Regression,Lecture,14128,0.03,0.009,958,1420,onehot,{}
+E_matched,Linear Regression,Library,9886,0.02,0.009,3,4,onehot,{}
+E_matched,Linear Regression,Mess,15131,0.03,0.01,0,0,onehot,{}
+E_matched,KNN Regression,Academic,18566,0.01,0.989,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+E_matched,KNN Regression,Boys_main,10070,0.01,0.504,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+E_matched,KNN Regression,Facilities,14380,0.01,0.763,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+E_matched,KNN Regression,Girls_main,8479,0.01,0.493,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+E_matched,KNN Regression,Lecture,14128,0.01,0.709,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+E_matched,KNN Regression,Library,9886,0.01,0.513,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+E_matched,KNN Regression,Mess,15131,0.01,0.839,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+E_matched,Decision Tree Regression,Academic,18566,0.06,0.004,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+E_matched,Decision Tree Regression,Boys_main,10070,0.04,0.006,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+E_matched,Decision Tree Regression,Facilities,14380,0.07,0.006,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+E_matched,Decision Tree Regression,Girls_main,8479,0.03,0.005,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+E_matched,Decision Tree Regression,Lecture,14128,0.02,0.003,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+E_matched,Decision Tree Regression,Library,9886,0.03,0.004,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+E_matched,Decision Tree Regression,Mess,15131,0.05,0.004,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+E_matched,Support Vector Regression,Academic,18566,12.28,4.84,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+E_matched,Support Vector Regression,Boys_main,10070,4.67,3.148,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+E_matched,Support Vector Regression,Facilities,14380,7.44,4.205,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+E_matched,Support Vector Regression,Girls_main,8479,3.94,3.132,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+E_matched,Support Vector Regression,Lecture,14128,4.18,1.466,788,1056,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+E_matched,Support Vector Regression,Library,9886,3.77,2.606,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+E_matched,Support Vector Regression,Mess,15131,11.26,8.135,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+E_all,Linear Regression,Academic,20129,0.04,0.01,0,0,onehot,{}
+E_all,Linear Regression,Boys_main,11757,0.03,0.011,0,0,onehot,{}
+E_all,Linear Regression,Facilities,18971,0.04,0.009,0,0,onehot,{}
+E_all,Linear Regression,Girls_main,10033,0.02,0.011,0,0,onehot,{}
+E_all,Linear Regression,Lecture,20129,0.05,0.012,1234,2196,onehot,{}
+E_all,Linear Regression,Library,11999,0.03,0.011,2,5,onehot,{}
+E_all,Linear Regression,Mess,16931,0.03,0.009,0,0,onehot,{}
+E_all,KNN Regression,Academic,20129,0.01,0.974,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+E_all,KNN Regression,Boys_main,11757,0.01,0.548,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+E_all,KNN Regression,Facilities,18971,0.02,0.996,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+E_all,KNN Regression,Girls_main,10033,0.01,0.649,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+E_all,KNN Regression,Lecture,20129,0.02,1.043,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+E_all,KNN Regression,Library,11999,0.01,0.64,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+E_all,KNN Regression,Mess,16931,0.01,0.998,0,0,onehot,"{""k"": 20, ""weights"": ""distance""}"
+E_all,Decision Tree Regression,Academic,20129,0.07,0.004,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+E_all,Decision Tree Regression,Boys_main,11757,0.04,0.004,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+E_all,Decision Tree Regression,Facilities,18971,0.06,0.005,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+E_all,Decision Tree Regression,Girls_main,10033,0.03,0.004,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+E_all,Decision Tree Regression,Lecture,20129,0.03,0.004,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+E_all,Decision Tree Regression,Library,11999,0.04,0.004,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+E_all,Decision Tree Regression,Mess,16931,0.06,0.004,0,0,raw,"{""max_depth"": 8, ""min_samples_leaf"": 20}"
+E_all,Support Vector Regression,Academic,20129,13.09,5.674,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+E_all,Support Vector Regression,Boys_main,11757,6.4,3.831,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+E_all,Support Vector Regression,Facilities,18971,13.37,6.47,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+E_all,Support Vector Regression,Girls_main,10033,4.61,3.907,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+E_all,Support Vector Regression,Lecture,20129,5.89,2.437,1121,1933,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+E_all,Support Vector Regression,Library,11999,5.4,3.384,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"
+E_all,Support Vector Regression,Mess,16931,14.44,9.079,0,0,onehot,"{""C"": 30, ""gamma"": 0.005, ""epsilon"": 0.1}"

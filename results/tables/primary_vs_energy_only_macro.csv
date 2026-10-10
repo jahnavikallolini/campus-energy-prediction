@@ -1,0 +1,33 @@
+setup,eval_set,model,macro_R2,macro_nMAE_std,macro_nRMSE_std,rows
+E_all: energy-only (scored on all its rows),test,Decision Tree Regression,0.8096959550860152,0.25939247822014,0.43969731617314023,46367
+E_all: energy-only (scored on all its rows),test,KNN Regression,0.811990347688785,0.2804562431055884,0.43941939760704857,46367
+E_all: energy-only (scored on all its rows),test,Linear Regression,0.8460090262508707,0.2568136546732345,0.39978129692444314,46367
+E_all: energy-only (scored on all its rows),test,Support Vector Regression,0.833486975393221,0.2531785323435855,0.4143171331603125,46367
+E_all: energy-only (scored on all its rows),val,Decision Tree Regression,0.8702497667357166,0.220919296455445,0.35013411016189316,30142
+E_all: energy-only (scored on all its rows),val,KNN Regression,0.8582863937309365,0.24067194851317342,0.36521010026984957,30142
+E_all: energy-only (scored on all its rows),val,Linear Regression,0.8770974981351779,0.22593642689988053,0.34637714326976116,30142
+E_all: energy-only (scored on all its rows),val,Support Vector Regression,0.8964313023610083,0.19858190630635436,0.31287617318881633,30142
+"E_all: energy-only, all train rows (scored on common rows)",test,Decision Tree Regression,0.792674056467186,0.27513103253799026,0.46674548721712983,37264
+"E_all: energy-only, all train rows (scored on common rows)",test,KNN Regression,0.7960799344254105,0.29798535525681386,0.4657826151471721,37264
+"E_all: energy-only, all train rows (scored on common rows)",test,Linear Regression,0.8354595440047022,0.2719167235556702,0.42131261177271934,37264
+"E_all: energy-only, all train rows (scored on common rows)",test,Support Vector Regression,0.8192314934291284,0.2715911794705237,0.44095172429769214,37264
+"E_all: energy-only, all train rows (scored on common rows)",val,Decision Tree Regression,0.8682228449639442,0.22479327145832878,0.35457850351865455,28428
+"E_all: energy-only, all train rows (scored on common rows)",val,KNN Regression,0.8563145722229172,0.24509998867649577,0.36907171072580847,28428
+"E_all: energy-only, all train rows (scored on common rows)",val,Linear Regression,0.8764128846029061,0.22964889972531502,0.35014827462208187,28428
+"E_all: energy-only, all train rows (scored on common rows)",val,Support Vector Regression,0.8959344453628051,0.2017957722529665,0.3155576166872097,28428
+"E_matched: energy-only, same train rows",test,Decision Tree Regression,0.7892508458542504,0.2794286004080245,0.4715692198523929,37264
+"E_matched: energy-only, same train rows",test,KNN Regression,0.7944532161713079,0.30021450154085516,0.4677983268429062,37264
+"E_matched: energy-only, same train rows",test,Linear Regression,0.8348348242927675,0.27323015397635103,0.42219757956797704,37264
+"E_matched: energy-only, same train rows",test,Support Vector Regression,0.8217961612780046,0.2716052518031526,0.4377518032958477,37264
+"E_matched: energy-only, same train rows",val,Decision Tree Regression,0.8681544910420163,0.22637340985106416,0.35534117807431903,28428
+"E_matched: energy-only, same train rows",val,KNN Regression,0.8539708776082174,0.2479604225309802,0.3718664483273887,28428
+"E_matched: energy-only, same train rows",val,Linear Regression,0.8764282712614266,0.23062060246936467,0.35014751153880624,28428
+"E_matched: energy-only, same train rows",val,Support Vector Regression,0.8952973723409731,0.20298205623529936,0.3168213107461879,28428
+P: energy + lagged occupancy,test,Decision Tree Regression,0.7824257867114932,0.2814381481835229,0.47974468521906627,37264
+P: energy + lagged occupancy,test,KNN Regression,0.7506496727779866,0.3363416254570523,0.516799424166597,37264
+P: energy + lagged occupancy,test,Linear Regression,0.8357580022485517,0.27286685473694244,0.42088596769324965,37264
+P: energy + lagged occupancy,test,Support Vector Regression,0.812600075892253,0.28206314369792845,0.44965983098457674,37264
+P: energy + lagged occupancy,val,Decision Tree Regression,0.8663326384292914,0.22759021103083085,0.3570486770399336,28428
+P: energy + lagged occupancy,val,KNN Regression,0.8349521677144583,0.26815795936965425,0.3979473897374662,28428
+P: energy + lagged occupancy,val,Linear Regression,0.877480035633479,0.2296560401742072,0.3481104845788338,28428
+P: energy + lagged occupancy,val,Support Vector Regression,0.8918940066778808,0.20674992457376615,0.32094286999389604,28428

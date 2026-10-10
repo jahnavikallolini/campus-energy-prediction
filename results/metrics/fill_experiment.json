@@ -1,0 +1,13 @@
+{
+  "rule": "largest k <= 6 h for which causal LOCF has lower MAE than the 24 h-earlier value in all seven buildings",
+  "all_buildings_ok_by_k": {
+    "1": true,
+    "2": false,
+    "3": false,
+    "6": false,
+    "12": false,
+    "24": false
+  },
+  "recommended_max_fill_hours": 1,
+  "configured_MAX_FILL_HOURS": 1
+}

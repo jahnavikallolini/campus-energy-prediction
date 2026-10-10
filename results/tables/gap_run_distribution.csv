@@ -1,0 +1,43 @@
+building,gap_length,n_gaps,hours_missing
+Academic,1 h,23,23
+Academic,2-3 h,14,32
+Academic,4-6 h,0,0
+Academic,7-24 h,8,113
+Academic,25 h-7 d,2,243
+Academic,>7 d,1,304
+Boys_main,1 h,65,65
+Boys_main,2-3 h,33,73
+Boys_main,4-6 h,10,45
+Boys_main,7-24 h,18,254
+Boys_main,25 h-7 d,11,746
+Boys_main,>7 d,4,9669
+Facilities,1 h,31,31
+Facilities,2-3 h,16,36
+Facilities,4-6 h,5,26
+Facilities,7-24 h,4,48
+Facilities,25 h-7 d,12,611
+Facilities,>7 d,2,1401
+Girls_main,1 h,62,62
+Girls_main,2-3 h,33,75
+Girls_main,4-6 h,9,42
+Girls_main,7-24 h,12,164
+Girls_main,25 h-7 d,13,1248
+Girls_main,>7 d,9,9447
+Lecture,1 h,22,22
+Lecture,2-3 h,14,32
+Lecture,4-6 h,0,0
+Lecture,7-24 h,8,113
+Lecture,25 h-7 d,2,243
+Lecture,>7 d,1,304
+Library,1 h,10,10
+Library,2-3 h,9,22
+Library,4-6 h,0,0
+Library,7-24 h,14,169
+Library,25 h-7 d,7,355
+Library,>7 d,6,9417
+Mess,1 h,71,71
+Mess,2-3 h,32,72
+Mess,4-6 h,3,13
+Mess,7-24 h,7,104
+Mess,25 h-7 d,8,412
+Mess,>7 d,4,3255

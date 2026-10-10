@@ -1,0 +1,9 @@
+variant,model,split,n_zero_hours,pct_zero_hours,MAE_zero_target_W,MAE_nonzero_target_W,mean_pred_in_zero_hours_W,pct_zero_hours_pred_over_500W,pct_zero_hours_pred_exactly_0,share_of_SSE_from_zero_hours
+P,Decision Tree Regression,test,3335,66.42,58.07,713.46,58.07,2.55,0.0,5.68
+P,KNN Regression,test,3335,66.42,104.55,777.7,104.55,5.16,49.15,8.58
+P,Linear Regression,test,3335,66.42,128.32,724.41,128.32,6.75,41.17,14.7
+P,Support Vector Regression,test,3335,66.42,115.21,685.65,115.21,5.28,35.02,9.12
+E_all,Decision Tree Regression,test,5226,73.42,45.62,676.32,45.62,1.93,1.53,7.44
+E_all,KNN Regression,test,5226,73.42,47.72,707.46,47.72,2.07,70.51,5.94
+E_all,Linear Regression,test,5226,73.42,104.06,712.54,104.06,4.34,41.45,14.51
+E_all,Support Vector Regression,test,5226,73.42,77.31,679.82,77.31,2.62,36.41,7.78

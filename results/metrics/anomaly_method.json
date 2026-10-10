@@ -1,0 +1,5 @@
+{
+  "criterion": "|modified z| > 3.5",
+  "reference": "validation residuals only, per model x feature set x building x day-part",
+  "note": "statistical outliers relative to the model, not confirmed physical faults"
+}

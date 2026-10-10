@@ -1,0 +1,133 @@
+model,variant,building,period,hours,flagged,high,low,pct_flagged
+Linear Regression,E_matched,Academic,test_full,5915,443,283,160,7.489433643279797
+Linear Regression,E_matched,Academic,test_post_break,2620,306,218,88,11.679389312977099
+Linear Regression,E_matched,Academic,test_primary,3266,132,60,72,4.041641151255358
+Linear Regression,E_matched,Academic,test_transition,29,5,5,0,17.24137931034483
+Linear Regression,E_matched,Academic,validation,4413,147,64,83,3.3310673011556764
+Linear Regression,E_matched,Boys_main,test_full,4107,324,231,93,7.888970051132214
+Linear Regression,E_matched,Boys_main,test_post_break,2010,183,143,40,9.104477611940299
+Linear Regression,E_matched,Boys_main,test_primary,2097,141,88,53,6.723891273247497
+Linear Regression,E_matched,Boys_main,validation,4208,152,98,54,3.612167300380228
+Linear Regression,E_matched,Facilities,test_full,5426,316,202,114,5.823811279026907
+Linear Regression,E_matched,Facilities,test_post_break,2203,201,146,55,9.123921924648206
+Linear Regression,E_matched,Facilities,test_primary,3193,112,55,57,3.5076730347635454
+Linear Regression,E_matched,Facilities,test_transition,30,3,1,2,10.0
+Linear Regression,E_matched,Facilities,validation,3933,62,29,33,1.5764047800661074
+Linear Regression,E_matched,Girls_main,test_full,6009,137,97,40,2.2799134631386253
+Linear Regression,E_matched,Girls_main,test_post_break,2747,70,61,9,2.548234437568256
+Linear Regression,E_matched,Girls_main,test_primary,3230,67,36,31,2.0743034055727554
+Linear Regression,E_matched,Girls_main,test_transition,32,0,0,0,0.0
+Linear Regression,E_matched,Girls_main,validation,3904,43,34,9,1.1014344262295082
+Linear Regression,E_matched,Lecture,test_full,5021,347,181,166,6.910973909579765
+Linear Regression,E_matched,Lecture,test_post_break,2436,218,116,102,8.949096880131362
+Linear Regression,E_matched,Lecture,test_primary,2560,129,65,64,5.0390625
+Linear Regression,E_matched,Lecture,test_transition,25,0,0,0,0.0
+Linear Regression,E_matched,Lecture,validation,3589,61,39,22,1.699637782112009
+Linear Regression,E_matched,Library,test_full,4890,230,125,105,4.703476482617587
+Linear Regression,E_matched,Library,test_post_break,2253,162,104,58,7.1904127829560585
+Linear Regression,E_matched,Library,test_primary,2637,68,21,47,2.578687902919985
+Linear Regression,E_matched,Library,validation,4055,172,51,121,4.241676942046856
+Linear Regression,E_matched,Mess,test_full,5896,100,88,12,1.6960651289009498
+Linear Regression,E_matched,Mess,test_post_break,2616,89,78,11,3.4021406727828745
+Linear Regression,E_matched,Mess,test_primary,3248,8,7,1,0.24630541871921183
+Linear Regression,E_matched,Mess,test_transition,32,3,3,0,9.375
+Linear Regression,E_matched,Mess,validation,4326,24,22,2,0.5547850208044383
+Linear Regression,P,Academic,test_full,5915,453,284,169,7.658495350803043
+Linear Regression,P,Academic,test_post_break,2620,316,219,97,12.061068702290076
+Linear Regression,P,Academic,test_primary,3266,132,60,72,4.041641151255358
+Linear Regression,P,Academic,test_transition,29,5,5,0,17.24137931034483
+Linear Regression,P,Academic,validation,4413,149,65,84,3.376387944708815
+Linear Regression,P,Boys_main,test_full,4107,313,217,96,7.621134648161675
+Linear Regression,P,Boys_main,test_post_break,2010,180,137,43,8.955223880597014
+Linear Regression,P,Boys_main,test_primary,2097,133,80,53,6.342393896041965
+Linear Regression,P,Boys_main,validation,4208,147,97,50,3.4933460076045626
+Linear Regression,P,Facilities,test_full,5426,317,202,115,5.842241061555474
+Linear Regression,P,Facilities,test_post_break,2203,204,147,57,9.260099863822061
+Linear Regression,P,Facilities,test_primary,3193,110,54,56,3.445036016285625
+Linear Regression,P,Facilities,test_transition,30,3,1,2,10.0
+Linear Regression,P,Facilities,validation,3933,60,32,28,1.5255530129672006
+Linear Regression,P,Girls_main,test_full,6009,117,82,35,1.947079380928607
+Linear Regression,P,Girls_main,test_post_break,2747,57,51,6,2.074990899162723
+Linear Regression,P,Girls_main,test_primary,3230,60,31,29,1.8575851393188854
+Linear Regression,P,Girls_main,test_transition,32,0,0,0,0.0
+Linear Regression,P,Girls_main,validation,3904,38,29,9,0.9733606557377049
+Linear Regression,P,Lecture,test_full,5021,363,187,176,7.2296355307707625
+Linear Regression,P,Lecture,test_post_break,2436,226,116,110,9.277504105090312
+Linear Regression,P,Lecture,test_primary,2560,137,71,66,5.3515625
+Linear Regression,P,Lecture,test_transition,25,0,0,0,0.0
+Linear Regression,P,Lecture,validation,3589,72,49,23,2.0061298411813877
+Linear Regression,P,Library,test_full,4890,248,129,119,5.071574642126789
+Linear Regression,P,Library,test_post_break,2253,180,110,70,7.989347536617843
+Linear Regression,P,Library,test_primary,2637,68,19,49,2.578687902919985
+Linear Regression,P,Library,validation,4055,177,55,122,4.36498150431566
+Linear Regression,P,Mess,test_full,5896,108,90,18,1.8317503392130259
+Linear Regression,P,Mess,test_post_break,2616,97,80,17,3.7079510703363914
+Linear Regression,P,Mess,test_primary,3248,7,6,1,0.21551724137931033
+Linear Regression,P,Mess,test_transition,32,4,4,0,12.5
+Linear Regression,P,Mess,validation,4326,24,22,2,0.5547850208044383
+Support Vector Regression,E_matched,Academic,test_full,5915,752,407,345,12.713440405748099
+Support Vector Regression,E_matched,Academic,test_post_break,2620,607,332,275,23.16793893129771
+Support Vector Regression,E_matched,Academic,test_primary,3266,135,69,66,4.133496631965707
+Support Vector Regression,E_matched,Academic,test_transition,29,10,6,4,34.48275862068966
+Support Vector Regression,E_matched,Academic,validation,4413,224,129,95,5.075912077951507
+Support Vector Regression,E_matched,Boys_main,test_full,4107,448,298,150,10.908205502800097
+Support Vector Regression,E_matched,Boys_main,test_post_break,2010,264,186,78,13.134328358208956
+Support Vector Regression,E_matched,Boys_main,test_primary,2097,184,112,72,8.77443967572723
+Support Vector Regression,E_matched,Boys_main,validation,4208,202,135,67,4.800380228136882
+Support Vector Regression,E_matched,Facilities,test_full,5426,312,183,129,5.750092148912643
+Support Vector Regression,E_matched,Facilities,test_post_break,2203,217,137,80,9.850204266908761
+Support Vector Regression,E_matched,Facilities,test_primary,3193,91,45,46,2.8499843407453804
+Support Vector Regression,E_matched,Facilities,test_transition,30,4,1,3,13.333333333333334
+Support Vector Regression,E_matched,Facilities,validation,3933,55,30,25,1.398423595219934
+Support Vector Regression,E_matched,Girls_main,test_full,6009,153,99,54,2.54618072890664
+Support Vector Regression,E_matched,Girls_main,test_post_break,2747,81,60,21,2.948671277757554
+Support Vector Regression,E_matched,Girls_main,test_primary,3230,72,39,33,2.2291021671826625
+Support Vector Regression,E_matched,Girls_main,test_transition,32,0,0,0,0.0
+Support Vector Regression,E_matched,Girls_main,validation,3904,47,38,9,1.2038934426229508
+Support Vector Regression,E_matched,Lecture,test_full,5021,538,250,288,10.714997012547302
+Support Vector Regression,E_matched,Lecture,test_post_break,2436,282,125,157,11.576354679802956
+Support Vector Regression,E_matched,Lecture,test_primary,2560,253,125,128,9.8828125
+Support Vector Regression,E_matched,Lecture,test_transition,25,3,0,3,12.0
+Support Vector Regression,E_matched,Lecture,validation,3589,201,145,56,5.600445806631374
+Support Vector Regression,E_matched,Library,test_full,4890,494,254,240,10.102249488752555
+Support Vector Regression,E_matched,Library,test_post_break,2253,387,223,164,17.177097203728362
+Support Vector Regression,E_matched,Library,test_primary,2637,107,31,76,4.057641259006447
+Support Vector Regression,E_matched,Library,validation,4055,217,86,131,5.351418002466091
+Support Vector Regression,E_matched,Mess,test_full,5896,137,120,17,2.3236092265943014
+Support Vector Regression,E_matched,Mess,test_post_break,2616,127,110,17,4.8547400611620795
+Support Vector Regression,E_matched,Mess,test_primary,3248,6,6,0,0.18472906403940886
+Support Vector Regression,E_matched,Mess,test_transition,32,4,4,0,12.5
+Support Vector Regression,E_matched,Mess,validation,4326,29,28,1,0.6703652334720296
+Support Vector Regression,P,Academic,test_full,5915,764,415,349,12.916314454775993
+Support Vector Regression,P,Academic,test_post_break,2620,641,352,289,24.46564885496183
+Support Vector Regression,P,Academic,test_primary,3266,115,57,58,3.5211267605633805
+Support Vector Regression,P,Academic,test_transition,29,8,6,2,27.586206896551722
+Support Vector Regression,P,Academic,validation,4413,192,112,80,4.350781781101292
+Support Vector Regression,P,Boys_main,test_full,4107,420,275,145,10.226442658875092
+Support Vector Regression,P,Boys_main,test_post_break,2010,267,188,79,13.283582089552239
+Support Vector Regression,P,Boys_main,test_primary,2097,153,87,66,7.296137339055794
+Support Vector Regression,P,Boys_main,validation,4208,162,119,43,3.849809885931559
+Support Vector Regression,P,Facilities,test_full,5426,296,182,114,5.455215628455584
+Support Vector Regression,P,Facilities,test_post_break,2203,220,140,80,9.986382206082615
+Support Vector Regression,P,Facilities,test_primary,3193,72,40,32,2.254932665205136
+Support Vector Regression,P,Facilities,test_transition,30,4,2,2,13.333333333333334
+Support Vector Regression,P,Facilities,validation,3933,44,25,19,1.1187388761759471
+Support Vector Regression,P,Girls_main,test_full,6009,173,90,83,2.8790148111166585
+Support Vector Regression,P,Girls_main,test_post_break,2747,104,58,46,3.7859483072442663
+Support Vector Regression,P,Girls_main,test_primary,3230,69,32,37,2.136222910216718
+Support Vector Regression,P,Girls_main,test_transition,32,0,0,0,0.0
+Support Vector Regression,P,Girls_main,validation,3904,51,43,8,1.3063524590163935
+Support Vector Regression,P,Lecture,test_full,5021,547,243,304,10.894244174467238
+Support Vector Regression,P,Lecture,test_post_break,2436,296,119,177,12.151067323481117
+Support Vector Regression,P,Lecture,test_primary,2560,249,124,125,9.7265625
+Support Vector Regression,P,Lecture,test_transition,25,2,0,2,8.0
+Support Vector Regression,P,Lecture,validation,3589,191,141,50,5.321816662022847
+Support Vector Regression,P,Library,test_full,4890,476,243,233,9.734151329243353
+Support Vector Regression,P,Library,test_post_break,2253,393,222,171,17.44340878828229
+Support Vector Regression,P,Library,test_primary,2637,83,21,62,3.1475161167993932
+Support Vector Regression,P,Library,validation,4055,191,85,106,4.7102342786683105
+Support Vector Regression,P,Mess,test_full,5896,172,149,23,2.9172320217096335
+Support Vector Regression,P,Mess,test_post_break,2616,162,139,23,6.192660550458716
+Support Vector Regression,P,Mess,test_primary,3248,6,6,0,0.18472906403940886
+Support Vector Regression,P,Mess,test_transition,32,4,4,0,12.5
+Support Vector Regression,P,Mess,validation,4326,31,30,1,0.7165973185390662

@@ -1,0 +1,286 @@
+{
+ "macro": {
+  "validation": {
+   "SVR": 0.3209428668375994,
+   "Linear": 0.3481105081383589,
+   "Decision Tree": 0.3570486820802215,
+   "KNN": 0.3979474205655853,
+   "Persistence": 0.4421782307919571
+  },
+  "test_primary": {
+   "SVR": 0.382353457822025,
+   "Linear": 0.3921504167595406,
+   "Decision Tree": 0.4651990453235179,
+   "KNN": 0.4635802474232188,
+   "Persistence": 0.4901905185357384
+  },
+  "test_post_break": {
+   "SVR": 0.5028534296819706,
+   "Linear": 0.4462110218577556,
+   "Decision Tree": 0.4772728096408885,
+   "KNN": 0.5539855812780815,
+   "Persistence": 0.4769840852284389
+  },
+  "test_full": {
+   "SVR": 0.4496598454091894,
+   "Linear": 0.4208859537442688,
+   "Decision Tree": 0.4797446958219701,
+   "KNN": 0.5167994368370993,
+   "Persistence": 0.4858533790562843
+  }
+ },
+ "macroR2": {
+  "validation": {
+   "SVR": 0.8918940124241217,
+   "Linear": 0.877480017402216,
+   "Decision Tree": 0.8663326554921381,
+   "KNN": 0.8349521339797134
+  },
+  "test_primary": {
+   "SVR": 0.8498356133642802,
+   "Linear": 0.8447438200234404,
+   "Decision Tree": 0.7748849077920035,
+   "KNN": 0.7812600586824122
+  },
+  "test_post_break": {
+   "SVR": 0.7724128153855764,
+   "Linear": 0.8196206362304006,
+   "Decision Tree": 0.7974012069894479,
+   "KNN": 0.7074786399063929
+  },
+  "test_full": {
+   "SVR": 0.8126000569608696,
+   "Linear": 0.835758024490222,
+   "Decision Tree": 0.7824258291363316,
+   "KNN": 0.7506496589868957
+  }
+ },
+ "fs": {
+  "validation": {
+   "SVR": {
+    "P": 0.3209428668375994,
+    "E_matched": 0.3168213290162037,
+    "E_all": 0.3155576010750663
+   },
+   "Linear": {
+    "P": 0.3481105081383589,
+    "E_matched": 0.3501475092865699,
+    "E_all": 0.3501482551629321
+   },
+   "Decision Tree": {
+    "P": 0.3570486820802215,
+    "E_matched": 0.3553411993767141,
+    "E_all": 0.3545785304774282
+   },
+   "KNN": {
+    "P": 0.3979474205655853,
+    "E_matched": 0.3718664983180672,
+    "E_all": 0.3690716585151968
+   }
+  },
+  "test_primary": {
+   "SVR": {
+    "P": 0.382353457822025,
+    "E_matched": 0.3789685931721052,
+    "E_all": 0.3830414442729302
+   },
+   "Linear": {
+    "P": 0.3921504167595406,
+    "E_matched": 0.3935279124830528,
+    "E_all": 0.3933801946330554
+   },
+   "Decision Tree": {
+    "P": 0.4651990453235179,
+    "E_matched": 0.4544912164572411,
+    "E_all": 0.4525196515478057
+   },
+   "KNN": {
+    "P": 0.4635802474232188,
+    "E_matched": 0.4473774584902843,
+    "E_all": 0.4464170506578365
+   }
+  }
+ },
+ "perb": {
+  "Academic": {
+   "validation": {
+    "SVR": 0.96008678229123,
+    "Linear": 0.9355381643730792
+   },
+   "test_primary": {
+    "SVR": 0.955969946954547,
+    "Linear": 0.9280204539512832
+   }
+  },
+  "Boys_main": {
+   "validation": {
+    "SVR": 0.8523700121106483,
+    "Linear": 0.8436676819183999
+   },
+   "test_primary": {
+    "SVR": 0.8137490701135158,
+    "Linear": 0.8206208029596369
+   }
+  },
+  "Facilities": {
+   "validation": {
+    "SVR": 0.9096652707413596,
+    "Linear": 0.8971157895585481
+   },
+   "test_primary": {
+    "SVR": 0.910473646649584,
+    "Linear": 0.8900434830566744
+   }
+  },
+  "Girls_main": {
+   "validation": {
+    "SVR": 0.831283569464015,
+    "Linear": 0.8484949550304137
+   },
+   "test_primary": {
+    "SVR": 0.7759999041251886,
+    "Linear": 0.7993397708900116
+   }
+  },
+  "Lecture": {
+   "validation": {
+    "SVR": 0.9145189214878768,
+    "Linear": 0.8778109914053878
+   },
+   "test_primary": {
+    "SVR": 0.7437997229680264,
+    "Linear": 0.792758917300157
+   }
+  },
+  "Library": {
+   "validation": {
+    "SVR": 0.932974585398494,
+    "Linear": 0.9055488016306852
+   },
+   "test_primary": {
+    "SVR": 0.9381586523923172,
+    "Linear": 0.8916699582689481
+   }
+  },
+  "Mess": {
+   "validation": {
+    "SVR": 0.8423589454752274,
+    "Linear": 0.8341837378989981
+   },
+   "test_primary": {
+    "SVR": 0.8106983503467822,
+    "Linear": 0.7907533537373715
+   }
+  }
+ },
+ "labels": {
+  "Academic": "Academic",
+  "Boys_main": "Boys Hostel",
+  "Facilities": "Facilities",
+  "Girls_main": "Girls Hostel",
+  "Lecture": "Lecture",
+  "Library": "Library",
+  "Mess": "Mess (Dining)"
+ },
+ "valid_hours": {
+  "Academic": 37805,
+  "Boys_main": 27668,
+  "Facilities": 34039,
+  "Girls_main": 27482,
+  "Lecture": 37806,
+  "Library": 28547,
+  "Mess": 33513
+ },
+ "primary_rows": {
+  "Academic": 28894,
+  "Boys_main": 18385,
+  "Facilities": 23739,
+  "Girls_main": 18392,
+  "Lecture": 22738,
+  "Library": 18831,
+  "Mess": 25353
+ },
+ "anomaly": {
+  "validation": {
+   "SVR_P": 3.0322217532010693,
+   "LR_P": 2.346278317152104
+  },
+  "test_primary": {
+   "SVR_P": 3.69235331916366,
+   "LR_P": 3.198062379516584
+  },
+  "test_post_break": {
+   "SVR_P": 12.336393248445363,
+   "LR_P": 7.4622445957950845
+  }
+ },
+ "anomaly_test_count": 747,
+ "jaccard": {
+  "features: SVR P vs SVR E_matched": 0.7961711711711712,
+  "features: LR P vs LR E_matched": 0.8981077147016011,
+  "models: SVR P vs LR P": 0.5135722041259501
+ },
+ "pca": {
+  "n_rows": 90640,
+  "n_features": 13,
+  "pc1": 0.37520437569114723,
+  "pc2": 0.16864785193894852,
+  "pc3": 0.14496390692451386,
+  "components_for_90pct": 7
+ },
+ "kmeans_all7": {
+  "n_building_days": 5659,
+  "selected_K": 3,
+  "silhouette_at_K": 0.714874294128849
+ },
+ "kmeans_wl": {
+  "n_building_days": 4650,
+  "selected_K": 2,
+  "silhouette_at_K": 0.3487573849528918
+ },
+ "lecture": {
+  "zero_pct": 82.54,
+  "hourly_zero_pct": 79.28
+ },
+ "rows": {
+  "train": 90640,
+  "val": 28428,
+  "test_primary": 20231,
+  "post": 16885,
+  "full": 37264
+ },
+ "train_seconds": {
+  "SVR": 56.22,
+  "Linear": 0.22
+ },
+ "fig_sizes": {
+  "fig19_timestamp_shift_profiles.png": [
+   2584,
+   744
+  ],
+  "fig21_anomaly_timeline.png": [
+   1796,
+   783
+  ],
+  "fig22_anomaly_examples.png": [
+   2384,
+   1984
+  ],
+  "fig25_pca.png": [
+   2584,
+   743
+  ],
+  "fig26_kmeans_without_lecture.png": [
+   2684,
+   743
+  ],
+  "fig12_actual_vs_predicted.png": [
+   2384,
+   1784
+  ],
+  "fig20_anomaly_rates.png": [
+   2484,
+   744
+  ]
+ }
+}
